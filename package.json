@@ -8,13 +8,19 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-router-dom": "^6.21.2",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "react-top-loading-bar": "^2.3.1",
+    "web-vitals": "^2.1.4",
+    "homepage": "http://yadavp473131.github.io/my-newsMonkey-react-app"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
+    "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -34,5 +40,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
