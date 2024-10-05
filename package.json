@@ -13,7 +13,7 @@
     "react-scripts": "5.0.1",
     "react-top-loading-bar": "^2.3.1",
     "web-vitals": "^2.1.4",
-    "homepage": "http://yadavp473131.github.io/my-newsMonkey-react-app"
+    
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
