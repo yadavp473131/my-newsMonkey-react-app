@@ -1,0 +1,13 @@
+ <Route path="/entertainment" element={<News pageSize={5} country="in"/>} />
+ <Route path="/general" element={<News pageSize={5} country="in"/>} />
+ <Route path="/health" element={<News pageSize={5} country="in"/>} />
+ <Route path="/science" element={<News pageSize={5} country="in"/>} />
+ <Route path="/sports" element={<News pageSize={5} country="in"/>} />
+ <Route path="/technology" element={<News pageSize={5} country="in"/>} />
+
+<Route path="/business" element={<News pageSize={5} country="in"/>} />
+
+position-absolute top-0 translate-middle 
+style={{left:"90%", zIndex:"1"}}
+process.env.REACT_APP_NEWS_API
+006ff3c243c44a8896f30e4bd8d180d7
